@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/contacto.css">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Contactanos</h1>
+   <div class="Formulario">
+   
+
+    <form action="/enviar-email" method ="post">
+
+        <fieldset>
+            <legend>Datos del usuario </legend>
+        <label for="nombre"> Nombre </label>
+          <input type="text"name ="nombre" id="nombre"
+           placeholder="Ingrese su nombre"required>
+            <br>
+    <br> 
+       <label for="apellido"> Apellido </label>
+          <input type="text"name ="apellido" id="apellido"
+           placeholder="Ingrese su Apellido"required maxlength="10"required minlength="4">
+           <br>
+           <br>
+           <div class="mb-3">
+           <label for="email" class="form-label"> Correo </label>
+          <input type="text" class="form-control" name="email"> 
+          <div id="emailHelp" class="form-text" We ll never share you email with anyone else>
+         </div>
+        </div>
+
+<br> <br> <!--Provisorio-->
+
+<label for="clave"> Contraseña </label>
+          <input type="password"name ="clave" id="clave"
+           placeholder="Ingrese su contraseña"required> <br><br>
+<!--PROVISORIO-->
+<label for="fecha"> Fecha </label>
+          <input type="date"name ="fecha" id="fecha"
+          ><br>      
+<!--NÚMEROS--> 
+ <label for="number">Números</label>
+<input type="number"name="num" id="num">
+<br>  <br>
+<!--Menú Desplegable-->
+<label for="talle"Talle></label> 
+<select name="talle" id="talle">
+<option value=""> Seleccioná tu talle</option>
+<option value="xs">Small</option>
+<option value="M">Medium </option>
+<option value="L">Large</option>
+</select>> 
+
+    <br><br> <!--PROVISORIO--> 
+<!--checkbox-->
+<div>Articulos</div>
+<input type="checkbox"name="cbox1"> Películas
+<input type="checkbox"name="cbox2"> Libros
+<input type="checkbox"name="cbox3"> Música 
+<br><br>
+<!--Botones radio-->
+<label for="pais">País de residencia</label>
+
+<br> <br>
+<input type="radio"name= "pais">Argentina
+<input type="radio"name= "pais">Chile
+<input type="radio"name= "pais"> Uruguay
+<br><br> 
+<!--TEXTAREA-->
+<div class="form-floating mb-3">
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" name="mensaje"
+<label for="mensajes"> Mensaje </label> <br>
+<textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+</div>
+<br><br>
+
+<input type="submit" value= "Enviar-email">
+<input type="reset" value="Limpiar formulario">
+<input type="button" value="No hago nada">
+</fieldset>   
+
+</div>
+</body>
+</html>

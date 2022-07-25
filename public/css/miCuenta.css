@@ -1,0 +1,42 @@
+
+
+body p {
+    text-align: justify;
+    font-weight: 700;
+    color: rgb(22, 2, 2);
+}
+.imagen {
+    text-align: center;
+}
+
+
+/*---- Footer----*/
+.footer{
+    background-color: rgb(247, 146, 238);
+color: rgb(36, 10, 34);
+padding: 2rem
+}
+.menuFooter{
+    list-style: none;
+}
+
+
+.menuFooter a{
+    color: rgb(7, 7, 0);
+font-size: 1.1rem;
+line-height: 2rem;
+}
+.bloqueFooter{
+    display: flex;
+    justify-content: space-around;
+}
+.creditoFinal{
+    text-align: center;
+height: max-content;}
+
+.navbarNati {
+    background-color: rgb(20, 2, 8);
+
+font-weight: 600;
+color: black;
+}
